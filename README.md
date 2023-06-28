@@ -39,8 +39,10 @@ The benefits of using Nginx as a reverse proxy include:
 
 ```azure
 ### How do you set up a Nginx reverse proxy?
+
 ### Setting Up Nginx as a Reverse Proxy:
-### Nginx reverse proxy configuration steps
+
+---> Nginx reverse proxy configuration steps
 Follow these steps to setup and configure an Nginx reverse proxy server of your own:
 
 1. Install Nginx on your Windows or Linux server (prerequisite).
@@ -53,9 +55,9 @@ Follow these steps to setup and configure an Nginx reverse proxy server of your 
 
 5. Restart Nginx reverse proxy and test the reverse proxy setup.
 
-### Setting Up Nginx as a Reverse Proxy Server
+## Setting Up Nginx as a Reverse Proxy Server
 
-Install Nginx
+### Install Nginx
 On Ubuntu, install the latest version of Nginx.
 
 sudo apt-get update -y
@@ -88,10 +90,5 @@ sudo systemctl restart nginx
 # got nginx config file and edit location
 
 sudo nano /etc/nginx/sites-available/default
-
-# change location try_files line to:
-
-proxy_pass http://localhost:3000;
-
 
 ```
