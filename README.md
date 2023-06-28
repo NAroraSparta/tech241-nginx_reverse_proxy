@@ -6,13 +6,13 @@ A port is identified by a 16-bit number, ranging from 0 to 65535. The first 1024
 ```
 
 ```azure
-### What is a reverse proxy? How is it different to a proxy?
+## What is a reverse proxy? How is it different to a proxy?
 
 A reverse proxy is a server that acts as an intermediary between client devices and one or more servers. It receives requests from clients and forwards them to the appropriate backend server to fulfill those requests. The response from the server is then sent back to the client through the reverse proxy.
 
 The main difference between a reverse proxy and a regular proxy lies in the direction of the communication flow. In a regular proxy setup, the client sends requests to the proxy server, which then forwards those requests to the destination server. The proxy server acts on behalf of the client, and the server's response is sent back to the proxy and then to the client.
 
-###What are the benefits of an Nginx reverse proxy setup?
+## What are the benefits of an Nginx reverse proxy setup?
 
 The benefits of using Nginx as a reverse proxy include:
 
@@ -21,6 +21,7 @@ The benefits of using Nginx as a reverse proxy include:
 3. The Nginx reverse proxy can navigate through firewalls that protect backend resources.
 4. The reverse proxy can act as a cache or buffer to reduce latency.
 5. User access control is greatly simplified with a single point of access to your site.
+
 (SSL (Secure Sockets Layer) encryption, and its more modern and secure replacement, TLS (Transport Layer Security) encryption, protect data sent over the internet or a computer network.)
 
 ```
@@ -31,13 +32,15 @@ The benefits of using Nginx as a reverse proxy include:
 ```
 
 ```azure
+
+
 ### What is Nginx's default configuration?
 ```
 
 ```azure
 ### How do you set up a Nginx reverse proxy?
-----Setting Up Nginx as a Reverse Proxy ----
-Nginx reverse proxy configuration steps
+### Setting Up Nginx as a Reverse Proxy:
+### Nginx reverse proxy configuration steps
 Follow these steps to setup and configure an Nginx reverse proxy server of your own:
 
 1. Install Nginx on your Windows or Linux server (prerequisite).
