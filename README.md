@@ -92,3 +92,19 @@ sudo systemctl restart nginx
 sudo nano /etc/nginx/sites-available/default
 
 ```
+
+### Reverse Proxy
+sudo nano /etc/nginx/sites-available/default
+change the line:
+try_files $uri $uri/ =404;
+
+to the following:
+
+proxy_pass http://localhost:3000;
+
+Save and exit nano, then sudo nginx -t to test it
+
+restart nginx
+sudo systemctl restart nginx
+
+Paste the app VM ip in the browser to check if it works.
