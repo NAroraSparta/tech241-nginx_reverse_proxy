@@ -95,6 +95,7 @@ sudo nano /etc/nginx/sites-available/default
 
 ### Reverse Proxy
 sudo nano /etc/nginx/sites-available/default
+
 change the line:
 try_files $uri $uri/ =404;
 
